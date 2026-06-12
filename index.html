@@ -5,18 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Accents Gaming</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #0f0f0f; color: #fff; margin: 0; padding: 20px; }
-    h1 { color: #00ff88; }
-    .post { background: #1a1a1a; padding: 20px; margin: 20px 0; border-radius: 8px; }
-    a { color: #00ff88; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Arial', sans-serif; background: #0a0a0a; color: #fff; }
+    header { background: linear-gradient(135deg, #0f0f0f, #1a1a2e); padding: 20px; text-align: center; border-bottom: 2px solid #00ff88; }
+    header h1 { color: #00ff88; font-size: 2em; letter-spacing: 2px; }
+    header p { color: #aaa; margin-top: 5px; }
+    nav { background: #111; padding: 10px; text-align: center; }
+    nav a { color: #00ff88; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    .hero { background: linear-gradient(135deg, #0f0f0f, #1a1a2e); padding: 40px 20px; text-align: center; }
+    .hero h2 { font-size: 1.5em; color: #fff; margin-bottom: 10px; }
+    .hero p { color: #aaa; max-width: 600px; margin: 0 auto; }
+    .posts { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+    .post-card { background: #1a1a1a; border-radius: 10px; padding: 20px; margin-bottom: 20px; border-left: 4px solid #00ff88; transition: transform 0.2s; }
+    .post-card:hover { transform: translateX(5px); }
+    .post-card h3 { color: #00ff88; margin-bottom: 8px; }
+    .post-card p { color: #ccc; font-size: 0.9em; }
+    .tag { background: #00ff8822; color: #00ff88; padding: 3px 8px; border-radius: 4px; font-size: 0.8em; margin-right: 5px; }
+    footer { text-align: center; padding: 20px; color: #555; border-top: 1px solid #222; margin-top: 40px; }
   </style>
 </head>
 <body>
-  <h1>🎮 Accents Gaming</h1>
-  <p>Reviews, setups y lo mejor del mundo gamer.</p>
-  <div class="post">
-    <h2>Bienvenido a Accents Gaming</h2>
-    <p>Próximamente reviews de headsets, teclados, mouse y setups gamer.</p>
+  <header>
+    <h1>🎮 ACCENTS GAMING</h1>
+    <p>Reviews, setups y lo mejor del mundo gamer</p>
+  </header>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Reviews</a>
+    <a href="#">Setups</a>
+    <a href="#">Ofertas</a>
+  </nav>
+  <div class="hero">
+    <h2>Tu guía gamer de confianza</h2>
+    <p>Reviews honestas de headsets, teclados, mouse y todo lo que necesitas para tu setup ideal.</p>
   </div>
+  <div class="posts">
+    <div class="post-card">
+      <span class="tag">Review</span>
+      <h3>Los 5 mejores headsets gamer por menos de $50</h3>
+      <p>¿Buscas un headset de calidad sin gastar mucho? Aquí te traemos las mejores opciones del mercado...</p>
+    </div>
+    <div class="post-card">
+      <span class="tag">Setup</span>
+      <h3>Cómo armar tu setup gamer desde cero</h3>
+      <p>Todo lo que necesitas saber para construir tu primer setup gamer con el menor presupuesto posible...</p>
+    </div>
+    <div class="post-card">
+      <span class="tag">Teclados</span>
+      <h3>Teclados mecánicos vs membrana: ¿Cuál elegir?</h3>
+      <p>Comparativa completa para que tomes la mejor decisión según tu estilo de juego...</p>
+    </div>
+  </div>
+  <footer>
+    <p>© 2026 Accents Gaming · Hecho con 🎮 pasión gamer</p>
+  </footer>
 </body>
 </html>
