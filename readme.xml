@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accents Gaming</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #0f0f0f; color: #fff; margin: 0; padding: 20px; }
+    h1 { color: #00ff88; }
+    .post { background: #1a1a1a; padding: 20px; margin: 20px 0; border-radius: 8px; }
+    a { color: #00ff88; }
+  </style>
+</head>
+<body>
+  <h1>🎮 Accents Gaming</h1>
+  <p>Reviews, setups y lo mejor del mundo gamer.</p>
+  <div class="post">
+    <h2>Bienvenido a Accents Gaming</h2>
+    <p>Próximamente reviews de headsets, teclados, mouse y setups gamer.</p>
+  </div>
+</body>
+</html>
